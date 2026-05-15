@@ -1,0 +1,303 @@
+{
+  "shelters": [
+    {
+      "id": "IT01",
+      "nome": "Parco Rifugio",
+      "città": "Milano",
+      "via": "Via Privata Aquila, 81",
+      "distanza": 200,
+      "contatto": "011 8844 6310",
+      "disponibilità": ["adozione"]
+    },
+    {
+      "id": "IT02",
+      "nome": "Rifugio Il Bau",
+      "città": "Torino",
+      "via": "Via Caselette, 71",
+      "distanza": 5,
+      "contatto": "339 813 9335",
+      "disponibilità": ["adozione", "affido"]
+    },
+    {
+      "id": "IT03",
+      "nome": "L'Arca di Noè",
+      "città": "Bologna",
+      "via": "Via Emilia 210",
+      "distanza": 340,
+      "contatto": "011 677 9450",
+      "disponibilità": ["adozione", "affido"]
+    },
+    {
+      "id": "IT04",
+      "nome": "Rifugio Colle Romano",
+      "città": "Roma",
+      "via": "Via Aurelia 10",
+      "distanza": 540,
+      "contatto": "011 442 7789",
+      "disponibilità": ["adozione"]
+    },
+    {
+      "id": "IT05",
+      "nome": "Rifugio Arno",
+      "città": "Firenze",
+      "via": "Via Senese 45",
+      "distanza": 430,
+      "contatto": "336 334 2211",
+      "disponibilità": ["adozione", "affido"]
+    }
+  ],
+
+  "animals": [
+    {
+      "id": 1,
+      "nome": "Tigro",
+      "tipo": "gatto",
+      "anni": 8,
+      "canile": "IT01",
+      "foto": "https://cdn2.thecatapi.com/images/cc5.jpg"
+    },
+    {
+      "id": 2,
+      "nome": "Max",
+      "tipo": "cane",
+      "anni": 5,
+      "canile": "IT01",
+      "foto": "https://images.dog.ceo/breeds/terrier-border/n02093754_2425.jpg"
+    },
+    {
+      "id": 3,
+      "nome": "Rocky",
+      "tipo": "cane",
+      "anni": 2,
+      "canile": "IT01",
+      "foto": "https://images.dog.ceo/breeds/terrier-dandie/n02096437_1891.jpg"
+    },
+    {
+      "id": 4,
+      "nome": "Bella",
+      "tipo": "cane",
+      "anni": 4,
+      "canile": "IT01",
+      "foto": "https://images.dog.ceo/breeds/papillon/n02086910_3338.jpg"
+    },
+    {
+      "id": 5,
+      "nome": "Maya",
+      "tipo": "cane",
+      "anni": 9,
+      "canile": "IT02",
+      "foto": "https://images.dog.ceo/breeds/pitbull/pitbull_dog.jpg"
+    },
+    {
+      "id": 6,
+      "nome": "Luna",
+      "tipo": "gatto",
+      "anni": 4,
+      "canile": "IT02",
+      "foto": "https://cdn2.thecatapi.com/images/MTUxMzEzNg.jpg"
+    },
+    {
+      "id": 7,
+      "nome": "Kira",
+      "tipo": "cane",
+      "anni": 7,
+      "canile": "IT02",
+      "foto": "https://images.dog.ceo/breeds/german-shepherd/n02106662_2358.jpg"
+    },
+    {
+      "id": 8,
+      "nome": "Leo",
+      "tipo": "cane",
+      "anni": 1,
+      "canile": "IT02",
+      "foto": "https://images.dog.ceo/breeds/ovcharka-caucasian/IMG_20190601_185700.jpg"
+    },
+    {
+      "id": 9,
+      "nome": "Lily",
+      "tipo": "cane",
+      "anni": 11,
+      "canile": "IT03",
+      "foto": "https://images.dog.ceo/breeds/briard/n02105251_1201.jpg"
+    },
+    {
+      "id": 10,
+      "nome": "Molly",
+      "tipo": "gatto",
+      "anni": 6,
+      "canile": "IT03",
+      "foto": "https://cdn2.thecatapi.com/images/ho.jpg"
+    },
+    {
+      "id": 11,
+      "nome": "Flash",
+      "tipo": "gatto",
+      "anni": 3,
+      "canile": "IT03",
+      "foto": "https://cdn2.thecatapi.com/images/MTY4MjA2MA.jpg"
+    },
+    {
+      "id": 12,
+      "nome": "Yala",
+      "tipo": "cane",
+      "anni": 7,
+      "canile": "IT03",
+      "foto": "https://images.dog.ceo/breeds/kuvasz/n02104029_3207.jpg"
+    },
+    {
+      "id": 13,
+      "nome": "Zeus",
+      "tipo": "cane",
+      "anni": 6,
+      "canile": "IT04",
+      "foto": "https://images.dog.ceo/breeds/terrier-norfolk/n02094114_2158.jpg"
+    },
+    {
+      "id": 14,
+      "nome": "Argo",
+      "tipo": "cane",
+      "anni": 2,
+      "canile": "IT04",
+      "foto": "https://images.dog.ceo/breeds/mountain-swiss/n02107574_2436.jpg"
+    },
+    {
+      "id": 15,
+      "nome": "Micia",
+      "tipo": "gatto",
+      "anni": 9,
+      "canile": "IT04",
+      "foto": "https://cdn2.thecatapi.com/images/KBroiVNCM.jpg"
+    },
+    {
+      "id": 16,
+      "nome": "Ombra",
+      "tipo": "gatto",
+      "anni": 5,
+      "canile": "IT04",
+      "foto": "https://cdn2.thecatapi.com/images/Kjf-Z_8YE.jpg"
+    },
+    {
+      "id": 17,
+      "nome": "Rex",
+      "tipo": "cane",
+      "anni": 6,
+      "canile": "IT05",
+      "foto": "https://images.dog.ceo/breeds/cavapoo/doggo3.jpg"
+    },
+    {
+      "id": 18,
+      "nome": "Daisy",
+      "tipo": "cane",
+      "anni": 4,
+      "canile": "IT05",
+      "foto": "https://images.dog.ceo/breeds/spaniel-welsh/n02102177_2677.jpg"
+    },
+    {
+      "id": 19,
+      "nome": "Millo",
+      "tipo": "cane",
+      "anni": 8,
+      "canile": "IT05",
+      "foto": "https://images.dog.ceo/breeds/terrier-toy/n02087046_924.jpg"
+    },
+    {
+      "id": 20,
+      "nome": "Lola",
+      "tipo": "gatto",
+      "anni": 12,
+      "canile": "IT05",
+      "foto": "https://cdn2.thecatapi.com/images/MTg0NzE0MQ.jpg"
+    }
+  ],
+
+  "missing": [
+    {
+      "id": 1,
+      "nome": "Fido",
+      "tipo": "cane",
+      "anni": 6,
+      "foto": "https://images.dog.ceo/breeds/spaniel-japanese/n02085782_2690.jpg",
+      "descrizione": "chihuahua a macchie, nessun collare, taglia piccola",
+      "ultimaPosizione": "Parco Nord, Vinovo",
+      "contatto": "+39 332 455 7875",
+      "dataSegnalazione": "2026-04-22"
+    },
+    {
+      "id": 2,
+      "nome": "Moka",
+      "tipo": "gatto",
+      "anni": 4,
+      "foto": "https://cdn2.thecatapi.com/images/3lo.jpg",
+      "descrizione": "gatto piccola taglia, tigrato, pelo disfatto",
+      "ultimaPosizione": "Corso Italia, Nichelino",
+      "contatto": "+39 333 114 9024",
+      "dataSegnalazione": "2026-04-25"
+    },
+    {
+      "id": 3,
+      "nome": "Whiskey",
+      "tipo": "gatto",
+      "anni": 9,
+      "foto": "https://cdn2.thecatapi.com/images/f4.jpg",
+      "descrizione": "gatto arancione chiaro, con striature bianche",
+      "ultimaPosizione": "Via Garibaldi, Torino",
+      "contatto": "+39 345 333 6279",
+      "dataSegnalazione": "2026-04-27"
+    },
+    {
+      "id": 4,
+      "nome": "Ariete",
+      "tipo": "cane",
+      "anni": 2,
+      "foto": "https://images.dog.ceo/breeds/beagle/n02088364_2652.jpg",
+      "descrizione": "beagle piccolo, molto spaventato",
+      "ultimaPosizione": "Via Molinette, Moncalieri",
+      "contatto": "+39 366 134 6558",
+      "dataSegnalazione": "2026-04-30"
+    },
+    {
+      "id": 5,
+      "nome": "Nerone",
+      "tipo": "gatto",
+      "anni": 7,
+      "foto": "https://cdn2.thecatapi.com/images/tJbzb7FKo.jpg",
+      "descrizione": "gatto affabile color marrone, pelo striato",
+      "ultimaPosizione": "Via Muschietto, Carignano",
+      "contatto": "+39 347 882 1808",
+      "dataSegnalazione": "2026-05-03"
+    },
+    {
+      "id": 6,
+      "nome": "Bambi",
+      "tipo": "cane",
+      "anni": 1,
+      "foto": "https://images.dog.ceo/breeds/labrador/n02099712_7133.jpg",
+      "descrizione": "labrador cucciolo, colore molto chiaro",
+      "ultimaPosizione": "Parco i Salti, Torino",
+      "contatto": "+39 331 899 5617",
+      "dataSegnalazione": "2026-05-04"
+    },
+    {
+      "id": 7,
+      "nome": "Scheggia",
+      "tipo": "cane",
+      "anni": 5,
+      "foto": "https://images.dog.ceo/breeds/akita/An_Akita_Inu_resting.jpg",
+      "descrizione": "akita taglia grande, colore marrone",
+      "ultimaPosizione": "Via Ginevro, Carignano",
+      "contatto": "+39 356 878 3313",
+      "dataSegnalazione": "2026-05-07"
+    },
+    {
+      "id": 8,
+      "nome": "Sole",
+      "tipo": "gatto",
+      "anni": 10,
+      "foto": "https://cdn2.thecatapi.com/images/bum.jpg",
+      "descrizione": "gatto marrone chiaro, occhi verdi",
+      "ultimaPosizione": "Piazza San Salvario, La loggia",
+      "contatto": "+39 320 556 7193",
+      "dataSegnalazione": "2026-05-09"
+    }
+  ]
+}
