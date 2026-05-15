@@ -1,0 +1,548 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstName": "Marco",
+      "lastName": "Rossi",
+      "email": "marco.rossi@email.it",
+      "birthDate": "1985-03-12",
+      "password": "hashed_password_1"
+    },
+    {
+      "id": 2,
+      "firstName": "Giulia",
+      "lastName": "Ferrari",
+      "email": "giulia.ferrari@email.it",
+      "birthDate": "1990-07-24",
+      "password": "hashed_password_2"
+    },
+    {
+      "id": 3,
+      "firstName": "Luca",
+      "lastName": "Bianchi",
+      "email": "luca.bianchi@email.it",
+      "birthDate": "1978-11-05",
+      "password": "hashed_password_3"
+    }
+  ],
+
+  "medications": [
+    {
+      "id": 1,
+      "name": "Augmentin",
+      "activeIngredient": "Amoxicillina + Acido Clavulanico",
+      "category": "Antibiotico",
+      "dosage": "875mg/125mg",
+      "form": "Compressa",
+      "prescriptionRequired": true
+    },
+    {
+      "id": 2,
+      "name": "Tachipirina",
+      "activeIngredient": "Paracetamolo",
+      "category": "Analgesico",
+      "dosage": "1000mg",
+      "form": "Compressa",
+      "prescriptionRequired": false
+    },
+    {
+      "id": 3,
+      "name": "Cardioaspirina",
+      "activeIngredient": "Acido Acetilsalicilico",
+      "category": "Antiaggregante",
+      "dosage": "100mg",
+      "form": "Compressa",
+      "prescriptionRequired": false
+    },
+    {
+      "id": 4,
+      "name": "Lansox",
+      "activeIngredient": "Lansoprazolo",
+      "category": "Gastroprotettore",
+      "dosage": "30mg",
+      "form": "Capsula",
+      "prescriptionRequired": true
+    },
+    {
+      "id": 5,
+      "name": "Voltaren",
+      "activeIngredient": "Diclofenac",
+      "category": "Antinfiammatorio",
+      "dosage": "50mg",
+      "form": "Compressa",
+      "prescriptionRequired": false
+    },
+    {
+      "id": 6,
+      "name": "Metformin",
+      "activeIngredient": "Cloridrato di Metformina",
+      "category": "Antidiabetico",
+      "dosage": "500mg",
+      "form": "Compressa",
+      "prescriptionRequired": true
+    }
+  ],
+
+  "therapies": [
+    {
+      "id": 1,
+      "userId": 1,
+      "medicationId": 3,
+      "medicationName": "Cardioaspirina",
+      "dose": "1 compressa",
+      "frequency": "ogni 24 ore",
+      "schedule": ["08:00"],
+      "startDate": "2025-01-10",
+      "endDate": null,
+      "notes": "Con il cibo",
+      "active": true
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "medicationId": 4,
+      "medicationName": "Lansox",
+      "dose": "1 capsula",
+      "frequency": "ogni 24 ore",
+      "schedule": ["07:30"],
+      "startDate": "2025-01-10",
+      "endDate": null,
+      "notes": "Prima di colazione",
+      "active": true
+    },
+    {
+      "id": 3,
+      "userId": 2,
+      "medicationId": 1,
+      "medicationName": "Augmentin",
+      "dose": "1 compressa",
+      "frequency": "ogni 12 ore",
+      "schedule": ["08:00", "20:00"],
+      "startDate": "2026-05-10",
+      "endDate": "2026-05-17",
+      "notes": "Ciclo di 7 giorni",
+      "active": true
+    },
+    {
+      "id": 4,
+      "userId": 3,
+      "medicationId": 6,
+      "medicationName": "Metformin",
+      "dose": "1 compressa",
+      "frequency": "ogni 8 ore",
+      "schedule": ["08:00", "14:00", "20:00"],
+      "startDate": "2024-06-01",
+      "endDate": null,
+      "notes": "Durante i pasti",
+      "active": true
+    }
+  ],
+
+  "intakes": [
+    {
+      "id": 1,
+      "therapyId": 1,
+      "userId": 1,
+      "medicationId": 3,
+      "scheduledAt": "2026-05-15T08:00:00",
+      "takenAt": "2026-05-15T08:12:00",
+      "status": "assunta"
+    },
+    {
+      "id": 2,
+      "therapyId": 2,
+      "userId": 1,
+      "medicationId": 4,
+      "scheduledAt": "2026-05-15T07:30:00",
+      "takenAt": null,
+      "status": "saltata"
+    },
+    {
+      "id": 3,
+      "therapyId": 3,
+      "userId": 2,
+      "medicationId": 1,
+      "scheduledAt": "2026-05-15T08:00:00",
+      "takenAt": "2026-05-15T08:05:00",
+      "status": "assunta"
+    },
+    {
+      "id": 4,
+      "therapyId": 3,
+      "userId": 2,
+      "medicationId": 1,
+      "scheduledAt": "2026-05-15T20:00:00",
+      "takenAt": "2026-05-15T20:31:00",
+      "status": "assunta"
+    },
+    {
+      "id": 5,
+      "therapyId": 4,
+      "userId": 3,
+      "medicationId": 6,
+      "scheduledAt": "2026-05-15T08:00:00",
+      "takenAt": "2026-05-15T08:00:00",
+      "status": "assunta"
+    }
+  ],
+
+  "facilities": [
+    {
+      "id": 1,
+      "type": "farmacia",
+      "name": "Farmacia Sant'Anna",
+      "address": "Via Roma 14, Milano",
+      "lat": 45.4654,
+      "lng": 9.1866,
+      "phone": "02 1234567",
+      "email": "info@farmaciasantanna.it",
+      "openingHours": {
+        "monday": "08:30-19:30",
+        "tuesday": "08:30-19:30",
+        "wednesday": "08:30-19:30",
+        "thursday": "08:30-19:30",
+        "friday": "08:30-19:30",
+        "saturday": "09:00-13:00",
+        "sunday": "chiuso"
+      },
+      "services": ["Misurazione pressione", "Test glicemia", "Vaccini"],
+      "isOpen": true
+    },
+    {
+      "id": 2,
+      "type": "farmacia",
+      "name": "Farmacia Centrale",
+      "address": "Corso Buenos Aires 52, Milano",
+      "lat": 45.4718,
+      "lng": 9.2085,
+      "phone": "02 9876543",
+      "email": "info@farmaciacentrale.it",
+      "openingHours": {
+        "monday": "08:00-20:00",
+        "tuesday": "08:00-20:00",
+        "wednesday": "08:00-20:00",
+        "thursday": "08:00-20:00",
+        "friday": "08:00-20:00",
+        "saturday": "08:00-20:00",
+        "sunday": "09:00-13:00"
+      },
+      "services": ["Misurazione pressione", "Noleggio stampelle", "Aerosol"],
+      "isOpen": true
+    },
+    {
+      "id": 3,
+      "type": "ospedale",
+      "name": "Ospedale Niguarda",
+      "address": "Piazza Ospedale Maggiore 3, Milano",
+      "lat": 45.5093,
+      "lng": 9.1878,
+      "phone": "02 6444 1",
+      "email": "info@niguarda.it",
+      "openingHours": {
+        "monday": "00:00-24:00",
+        "tuesday": "00:00-24:00",
+        "wednesday": "00:00-24:00",
+        "thursday": "00:00-24:00",
+        "friday": "00:00-24:00",
+        "saturday": "00:00-24:00",
+        "sunday": "00:00-24:00"
+      },
+      "services": [
+        "Pronto Soccorso",
+        "Cardiologia",
+        "Ortopedia",
+        "Neurologia",
+        "Radiologia"
+      ],
+      "isOpen": true
+    },
+    {
+      "id": 4,
+      "type": "ospedale",
+      "name": "Policlinico di Milano",
+      "address": "Via Francesco Sforza 35, Milano",
+      "lat": 45.4601,
+      "lng": 9.1974,
+      "phone": "02 5503 1",
+      "email": "info@policlinico.mi.it",
+      "openingHours": {
+        "monday": "00:00-24:00",
+        "tuesday": "00:00-24:00",
+        "wednesday": "00:00-24:00",
+        "thursday": "00:00-24:00",
+        "friday": "00:00-24:00",
+        "saturday": "00:00-24:00",
+        "sunday": "00:00-24:00"
+      },
+      "services": [
+        "Pronto Soccorso",
+        "Oncologia",
+        "Ginecologia",
+        "Pediatria",
+        "Chirurgia"
+      ],
+      "isOpen": true
+    },
+    {
+      "id": 5,
+      "type": "farmacia",
+      "name": "Farmacia Notturna Duomo",
+      "address": "Via Dogana 2, Milano",
+      "lat": 45.4641,
+      "lng": 9.1919,
+      "phone": "02 8646 4832",
+      "email": "info@farmaciaduomo.it",
+      "openingHours": {
+        "monday": "00:00-24:00",
+        "tuesday": "00:00-24:00",
+        "wednesday": "00:00-24:00",
+        "thursday": "00:00-24:00",
+        "friday": "00:00-24:00",
+        "saturday": "00:00-24:00",
+        "sunday": "00:00-24:00"
+      },
+      "services": ["Aperto 24h", "Misurazione pressione", "Test COVID"],
+      "isOpen": true
+    }
+  ],
+
+  "availability": [
+    {
+      "id": 1,
+      "pharmacyId": 1,
+      "medicationId": 1,
+      "available": true,
+      "quantity": 12
+    },
+    {
+      "id": 2,
+      "pharmacyId": 1,
+      "medicationId": 2,
+      "available": true,
+      "quantity": 30
+    },
+    {
+      "id": 3,
+      "pharmacyId": 1,
+      "medicationId": 3,
+      "available": false,
+      "quantity": 0
+    },
+    {
+      "id": 4,
+      "pharmacyId": 1,
+      "medicationId": 4,
+      "available": true,
+      "quantity": 5
+    },
+    {
+      "id": 5,
+      "pharmacyId": 2,
+      "medicationId": 1,
+      "available": true,
+      "quantity": 8
+    },
+    {
+      "id": 6,
+      "pharmacyId": 2,
+      "medicationId": 2,
+      "available": true,
+      "quantity": 50
+    },
+    {
+      "id": 7,
+      "pharmacyId": 2,
+      "medicationId": 3,
+      "available": true,
+      "quantity": 20
+    },
+    {
+      "id": 8,
+      "pharmacyId": 2,
+      "medicationId": 5,
+      "available": true,
+      "quantity": 15
+    },
+    {
+      "id": 9,
+      "pharmacyId": 5,
+      "medicationId": 1,
+      "available": true,
+      "quantity": 3
+    },
+    {
+      "id": 10,
+      "pharmacyId": 5,
+      "medicationId": 2,
+      "available": true,
+      "quantity": 25
+    },
+    {
+      "id": 11,
+      "pharmacyId": 5,
+      "medicationId": 6,
+      "available": false,
+      "quantity": 0
+    },
+    {
+      "id": 12,
+      "pharmacyId": 1,
+      "medicationId": 6,
+      "available": true,
+      "quantity": 7
+    }
+  ],
+
+  "appointments": [
+    {
+      "id": 1,
+      "userId": 1,
+      "facilityId": 4,
+      "type": "Visita cardiologica",
+      "date": "2026-05-22",
+      "time": "10:30",
+      "doctor": "Dr. Andrea Conti",
+      "notes": "Portare referti precedenti",
+      "status": "confermato"
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "facilityId": 3,
+      "type": "Analisi del sangue",
+      "date": "2026-05-17",
+      "time": "07:45",
+      "doctor": null,
+      "notes": "Digiuno di 8 ore prima",
+      "status": "confermato"
+    },
+    {
+      "id": 3,
+      "userId": 3,
+      "facilityId": 4,
+      "type": "Controllo diabete",
+      "date": "2026-06-03",
+      "time": "09:00",
+      "doctor": "Dr. Maria Greco",
+      "notes": "",
+      "status": "in attesa"
+    },
+    {
+      "id": 4,
+      "userId": 1,
+      "facilityId": 3,
+      "type": "Radiografia torace",
+      "date": "2026-04-10",
+      "time": "11:00",
+      "doctor": null,
+      "notes": "",
+      "status": "completato"
+    }
+  ],
+
+  "wellness_plans": [
+    {
+      "id": 1,
+      "userId": 1,
+      "title": "Piano di attività fisica leggera",
+      "category": "esercizio",
+      "description": "Camminata di 30 minuti al giorno, 5 volte a settimana",
+      "activities": [
+        { "day": "lunedì", "activity": "Camminata 30 min", "completed": true },
+        { "day": "martedì", "activity": "Riposo", "completed": true },
+        { "day": "mercoledì", "activity": "Camminata 30 min", "completed": false },
+        { "day": "giovedì", "activity": "Camminata 30 min", "completed": false },
+        { "day": "venerdì", "activity": "Camminata 30 min", "completed": false }
+      ],
+      "createdAt": "2026-05-01",
+      "active": true
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "title": "Dieta iposodica",
+      "category": "dieta",
+      "description": "Ridurre l'apporto di sale a supporto della terapia cardiologica",
+      "activities": [
+        {
+          "day": "ogni giorno",
+          "activity": "Max 5g di sale al giorno",
+          "completed": false
+        },
+        {
+          "day": "ogni giorno",
+          "activity": "Evitare cibi in scatola",
+          "completed": false
+        },
+        {
+          "day": "ogni giorno",
+          "activity": "Preferire la cottura a vapore",
+          "completed": false
+        }
+      ],
+      "createdAt": "2026-05-01",
+      "active": true
+    },
+    {
+      "id": 3,
+      "userId": 3,
+      "title": "Piano di gestione della glicemia",
+      "category": "dieta",
+      "description": "Piano alimentare per la gestione del diabete di tipo 2",
+      "activities": [
+        {
+          "day": "ogni giorno",
+          "activity": "Colazione integrale",
+          "completed": true
+        },
+        {
+          "day": "ogni giorno",
+          "activity": "Evitare zuccheri semplici",
+          "completed": true
+        },
+        {
+          "day": "ogni giorno",
+          "activity": "Camminata di 15 min dopo i pasti",
+          "completed": false
+        }
+      ],
+      "createdAt": "2026-04-15",
+      "active": true
+    }
+  ],
+
+  "health_tips": [
+    {
+      "id": 1,
+      "userId": 1,
+      "title": "Monitora regolarmente la pressione sanguigna",
+      "body": "Con la tua terapia a base di Cardioaspirina, è consigliabile misurare la pressione sanguigna almeno due volte a settimana.",
+      "category": "monitoraggio",
+      "createdAt": "2026-05-10"
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "title": "Mantieniti idratato",
+      "body": "Bere almeno 1,5L di acqua al giorno aiuta l'efficacia dei tuoi farmaci attuali.",
+      "category": "stile di vita",
+      "createdAt": "2026-05-12"
+    },
+    {
+      "id": 3,
+      "userId": 3,
+      "title": "Controlla la glicemia dopo i pasti",
+      "body": "Con Metformin nella tua terapia, il monitoraggio post-pasto è essenziale. Registra i tuoi valori nel diario.",
+      "category": "monitoraggio",
+      "createdAt": "2026-05-14"
+    },
+    {
+      "id": 4,
+      "userId": 2,
+      "title": "Completa il ciclo di antibiotici",
+      "body": "Non interrompere l'assunzione di Augmentin prima della fine dei 7 giorni prescritti, anche se ti senti meglio.",
+      "category": "terapia",
+      "createdAt": "2026-05-10"
+    }
+  ]
+}
