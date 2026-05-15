@@ -1,0 +1,335 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstName": "Shadi",
+      "lastName": "Lahham",
+      "email": "shadi.lahham@edu-its.it",
+      "password": "hashed_password_1",
+      "avatar": "https://i.pravatar.cc/150?img=33",
+      "age": 24,
+      "city": "Torino",
+      "bio": "Appassionato di MTB e giochi da tavolo. Cerco gente con cui esplorare i sentieri torinesi e passare serate in compagnia.",
+      "activities": [3, 7, 14, 16],
+      "joinedAt": "2025-09-10",
+      "rating": 4.8,
+      "matchCount": 12
+    },
+    {
+      "id": 2,
+      "firstName": "Matteo",
+      "lastName": "Cimino",
+      "email": "matteo.cimino@email.it",
+      "password": "hashed_password_2",
+      "avatar": "https://i.pravatar.cc/150?img=11",
+      "age": 27,
+      "city": "Avigliana (TO)",
+      "bio": "Mountain biker da sempre. Percorro i sentieri intorno ad Avigliana ogni weekend. Cerco compagni di pedalata!",
+      "activities": [14, 15, 16],
+      "joinedAt": "2025-10-01",
+      "rating": 4.9,
+      "matchCount": 8
+    },
+    {
+      "id": 3,
+      "firstName": "Pino",
+      "lastName": "Daniele",
+      "email": "pino.daniele@email.it",
+      "password": "hashed_password_3",
+      "avatar": "https://i.pravatar.cc/150?img=52",
+      "age": 31,
+      "city": "Pino Torinese (TO)",
+      "bio": "Amo il ciclismo e l'hiking. Nel weekend sono sempre fuori. Cerco gente che ami la natura quanto me.",
+      "activities": [14, 15, 16, 17],
+      "joinedAt": "2025-08-20",
+      "rating": 4.7,
+      "matchCount": 15
+    },
+    {
+      "id": 4,
+      "firstName": "Courtney",
+      "lastName": "Henry",
+      "email": "courtney.henry@email.it",
+      "password": "hashed_password_4",
+      "avatar": "https://i.pravatar.cc/150?img=44",
+      "age": 26,
+      "city": "Torino",
+      "bio": "Gioco a pallavolo da 10 anni. Cerco una squadra per match amichevoli o tornei locali.",
+      "activities": [1, 2, 4],
+      "joinedAt": "2025-11-05",
+      "rating": 4.6,
+      "matchCount": 6
+    },
+    {
+      "id": 5,
+      "firstName": "Darlene",
+      "lastName": "Robertson",
+      "email": "darlene.robertson@email.it",
+      "password": "hashed_password_5",
+      "avatar": "https://i.pravatar.cc/150?img=45",
+      "age": 29,
+      "city": "Moncalieri (TO)",
+      "bio": "Nerd di giochi da tavolo e di ruolo. Organizzo serate ogni giovedì sera. Più siamo, meglio è!",
+      "activities": [7, 8, 9, 11, 12],
+      "joinedAt": "2025-07-15",
+      "rating": 5.0,
+      "matchCount": 22
+    },
+    {
+      "id": 6,
+      "firstName": "Jacob",
+      "lastName": "Jones",
+      "email": "jacob.jones@email.it",
+      "password": "hashed_password_6",
+      "avatar": "https://i.pravatar.cc/150?img=13",
+      "age": 22,
+      "city": "Torino",
+      "bio": "Gamer da mattina a sera. Principalmente FPS e survival. Cerco squadra seria per ranked.",
+      "activities": [5, 6, 7],
+      "joinedAt": "2026-01-10",
+      "rating": 4.5,
+      "matchCount": 4
+    },
+    {
+      "id": 7,
+      "firstName": "Robert",
+      "lastName": "Fox",
+      "email": "robert.fox@email.it",
+      "password": "hashed_password_7",
+      "avatar": "https://i.pravatar.cc/150?img=57",
+      "age": 35,
+      "city": "Collegno (TO)",
+      "bio": "Ex calciatore dilettante. Organizzo partitelle ogni domenica al campo di Collegno. Tutti benvenuti.",
+      "activities": [1, 3, 4],
+      "joinedAt": "2025-06-01",
+      "rating": 4.9,
+      "matchCount": 30
+    },
+    {
+      "id": 8,
+      "firstName": "Kathryn",
+      "lastName": "Murphy",
+      "email": "kathryn.murphy@email.it",
+      "password": "hashed_password_8",
+      "avatar": "https://i.pravatar.cc/150?img=47",
+      "age": 28,
+      "city": "Torino",
+      "bio": "Amo il D&D e i giochi di ruolo in generale. Master con 5 anni di esperienza. Cerco giocatori di tutti i livelli.",
+      "activities": [11, 12, 13],
+      "joinedAt": "2025-12-20",
+      "rating": 4.8,
+      "matchCount": 9
+    },
+    {
+      "id": 9,
+      "firstName": "Jenny",
+      "lastName": "Wilson",
+      "email": "jenny.wilson@email.it",
+      "password": "hashed_password_9",
+      "avatar": "https://i.pravatar.cc/150?img=41",
+      "age": 25,
+      "city": "Rivoli (TO)",
+      "bio": "Appassionata di hiking e arrampicata. Ogni weekend una nuova vetta. Cerco compagni di avventura!",
+      "activities": [15, 16, 17, 18],
+      "joinedAt": "2026-02-14",
+      "rating": 4.7,
+      "matchCount": 7
+    },
+    {
+      "id": 10,
+      "firstName": "Raffaele",
+      "lastName": "Arnosio",
+      "email": "raffaele.arnosio@email.it",
+      "password": "hashed_password_10",
+      "avatar": "https://i.pravatar.cc/150?img=60",
+      "age": 30,
+      "city": "Torino",
+      "bio": "Calcetto, basket e birra post-partita. Questo è il mio stile di vita. Cerco gente positiva.",
+      "activities": [1, 2, 3],
+      "joinedAt": "2025-09-25",
+      "rating": 4.6,
+      "matchCount": 18
+    },
+    {
+      "id": 11,
+      "firstName": "Emanuele",
+      "lastName": "Carnimeo",
+      "email": "emanuele.carnimeo@email.it",
+      "password": "hashed_password_11",
+      "avatar": "https://i.pravatar.cc/150?img=65",
+      "age": 33,
+      "city": "Nichelino (TO)",
+      "bio": "Gioco a Risiko da quando avevo 8 anni. Cerco sfidanti all'altezza, se ne avete il coraggio.",
+      "activities": [7, 8, 9],
+      "joinedAt": "2025-10-30",
+      "rating": 4.4,
+      "matchCount": 11
+    }
+  ],
+
+  "categories": [
+    {
+      "id": 1,
+      "name": "Sport di squadra",
+      "description": "Calcio, basket, pallavolo, beachvolley...",
+      "image": "https://images.unsplash.com/photo-1529900748604-07564a03e7a6?w=400"
+    },
+    {
+      "id": 2,
+      "name": "Videogiochi",
+      "description": "Rainbow 6, Super Mario Bros., Minecraft...",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=400"
+    },
+    {
+      "id": 3,
+      "name": "Giochi da tavolo",
+      "description": "Risiko, Monopoli, Cluedo, Exploding Kittens...",
+      "image": "https://images.unsplash.com/photo-1632501641765-e568d28b0015?w=400"
+    },
+    {
+      "id": 4,
+      "name": "Giochi di ruolo",
+      "description": "Dungeons & Dragons, Cthulhu, Cyberpunk RED...",
+      "image": "https://images.unsplash.com/photo-1605870445919-838d190e8e1b?w=400"
+    },
+    {
+      "id": 5,
+      "name": "Sport in natura",
+      "description": "Ciclismo, hiking, passeggiate, arrampicata...",
+      "image": "https://images.unsplash.com/photo-1551632811-561732d1e306?w=400"
+    }
+  ],
+
+  "activities": [
+    { "id": 1, "name": "Calcio", "categoryId": 1 },
+    { "id": 2, "name": "Basket", "categoryId": 1 },
+    { "id": 3, "name": "Calcetto", "categoryId": 1 },
+    { "id": 4, "name": "Pallavolo", "categoryId": 1 },
+    { "id": 5, "name": "Beachvolley", "categoryId": 1 },
+    { "id": 6, "name": "Rainbow Six Siege", "categoryId": 2 },
+    { "id": 7, "name": "Minecraft", "categoryId": 2 },
+    { "id": 8, "name": "Super Mario Bros.", "categoryId": 2 },
+    { "id": 9, "name": "Risiko", "categoryId": 3 },
+    { "id": 10, "name": "Monopoli", "categoryId": 3 },
+    { "id": 11, "name": "Cluedo", "categoryId": 3 },
+    { "id": 12, "name": "Exploding Kittens", "categoryId": 3 },
+    { "id": 13, "name": "Dungeons & Dragons", "categoryId": 4 },
+    { "id": 14, "name": "Cthulhu", "categoryId": 4 },
+    { "id": 15, "name": "Cyberpunk RED", "categoryId": 4 },
+    { "id": 16, "name": "MTB", "categoryId": 5 },
+    { "id": 17, "name": "Ciclismo", "categoryId": 5 },
+    { "id": 18, "name": "Hiking", "categoryId": 5 },
+    { "id": 19, "name": "Arrampicata", "categoryId": 5 },
+    { "id": 20, "name": "Passeggiate", "categoryId": 5 }
+  ],
+
+  "match_requests": [
+    { "id": 1, "fromUserId": 1, "toUserId": 4, "status": "pending", "createdAt": "2026-05-14" },
+    { "id": 2, "fromUserId": 1, "toUserId": 5, "status": "accepted", "createdAt": "2026-05-13" },
+    { "id": 3, "fromUserId": 1, "toUserId": 6, "status": "rejected", "createdAt": "2026-05-13" },
+    { "id": 4, "fromUserId": 1, "toUserId": 8, "status": "pending", "createdAt": "2026-05-15" },
+    { "id": 5, "fromUserId": 1, "toUserId": 9, "status": "accepted", "createdAt": "2026-05-12" },
+    { "id": 6, "fromUserId": 2, "toUserId": 1, "status": "accepted", "createdAt": "2026-05-10" },
+    { "id": 7, "fromUserId": 3, "toUserId": 1, "status": "accepted", "createdAt": "2026-05-11" },
+    { "id": 8, "fromUserId": 7, "toUserId": 1, "status": "pending", "createdAt": "2026-05-15" },
+    { "id": 9, "fromUserId": 10, "toUserId": 1, "status": "pending", "createdAt": "2026-05-14" },
+    { "id": 10, "fromUserId": 11, "toUserId": 1, "status": "pending", "createdAt": "2026-05-15" }
+  ],
+
+  "matches": [
+    {
+      "id": 1,
+      "user1Id": 1,
+      "user2Id": 2,
+      "activityId": 16,
+      "date": "2026-05-18",
+      "time": "11:00",
+      "location": "Lago di Avigliana (TO)",
+      "status": "confirmed",
+      "notes": "Ci troviamo al parcheggio del lago"
+    },
+    {
+      "id": 2,
+      "user1Id": 1,
+      "user2Id": 3,
+      "activityId": 17,
+      "date": "2026-05-18",
+      "time": "16:00",
+      "location": "Pino Torinese (TO)",
+      "status": "confirmed",
+      "notes": "Partenza dalla piazza principale"
+    },
+    {
+      "id": 3,
+      "user1Id": 1,
+      "user2Id": 5,
+      "activityId": 9,
+      "date": "2026-05-22",
+      "time": "20:00",
+      "location": "Casa di Darlene, Moncalieri",
+      "status": "confirmed",
+      "notes": "Serata Risiko, portare snack!"
+    },
+    {
+      "id": 4,
+      "user1Id": 1,
+      "user2Id": 9,
+      "activityId": 18,
+      "date": "2026-05-24",
+      "time": "09:00",
+      "location": "Sacra di San Michele (TO)",
+      "status": "confirmed",
+      "notes": "Escursione di mezza giornata"
+    },
+    {
+      "id": 5,
+      "user1Id": 7,
+      "user2Id": 10,
+      "activityId": 3,
+      "date": "2026-05-19",
+      "time": "18:30",
+      "location": "Campo Colletta, Collegno (TO)",
+      "status": "confirmed",
+      "notes": ""
+    }
+  ],
+
+  "reviews": [
+    {
+      "id": 1,
+      "matchId": 1,
+      "fromUserId": 2,
+      "toUserId": 1,
+      "rating": 5,
+      "comment": "Shadi è puntualissimo e molto simpatico. Pedalata fantastica!",
+      "createdAt": "2026-04-20"
+    },
+    {
+      "id": 2,
+      "matchId": 2,
+      "fromUserId": 3,
+      "toUserId": 1,
+      "rating": 5,
+      "comment": "Gran compagno di giri, conosce tutti i sentieri. Lo richiedo sicuro.",
+      "createdAt": "2026-04-25"
+    },
+    {
+      "id": 3,
+      "matchId": 3,
+      "fromUserId": 5,
+      "toUserId": 1,
+      "rating": 4,
+      "comment": "Serata divertente, Shadi è un ottimo giocatore di Risiko!",
+      "createdAt": "2026-05-02"
+    },
+    {
+      "id": 4,
+      "matchId": 5,
+      "fromUserId": 7,
+      "toUserId": 10,
+      "rating": 5,
+      "comment": "Raffaele è un portiere fenomenale. Partitella epica!",
+      "createdAt": "2026-05-05"
+    }
+  ]
+}
