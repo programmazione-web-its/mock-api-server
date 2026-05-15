@@ -1,0 +1,354 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "mario_sony",
+      "firstName": "Mario",
+      "lastName": "Sony",
+      "email": "mario.sony@email.it",
+      "avatar": "https://i.pravatar.cc/150?img=12",
+      "bio": "Appassionato di informatica e musica. Insegno programmazione da 5 anni.",
+      "rating": 5.0,
+      "reviewCount": 100,
+      "joinedAt": "2024-01-15"
+    },
+    {
+      "id": 2,
+      "username": "giulia_arte",
+      "firstName": "Giulia",
+      "lastName": "Marini",
+      "email": "giulia.marini@email.it",
+      "avatar": "https://i.pravatar.cc/150?img=5",
+      "bio": "Illustratrice e grafica freelance. Scambio competenze artistiche con lingue.",
+      "rating": 4.8,
+      "reviewCount": 64,
+      "joinedAt": "2024-02-20"
+    },
+    {
+      "id": 3,
+      "username": "luca_music",
+      "firstName": "Luca",
+      "lastName": "Ferretti",
+      "email": "luca.ferretti@email.it",
+      "avatar": "https://i.pravatar.cc/150?img=8",
+      "bio": "Chitarrista e produttore musicale. Cerco qualcuno che mi insegni React.",
+      "rating": 4.9,
+      "reviewCount": 42,
+      "joinedAt": "2024-03-10"
+    },
+    {
+      "id": 4,
+      "username": "sara_lingue",
+      "firstName": "Sara",
+      "lastName": "Colombo",
+      "email": "sara.colombo@email.it",
+      "avatar": "https://i.pravatar.cc/150?img=9",
+      "bio": "Insegno inglese e spagnolo. Cerco qualcuno che mi insegni fotografia.",
+      "rating": 4.7,
+      "reviewCount": 88,
+      "joinedAt": "2024-04-05"
+    },
+    {
+      "id": 5,
+      "username": "marco_craft",
+      "firstName": "Marco",
+      "lastName": "Ricci",
+      "email": "marco.ricci@email.it",
+      "avatar": "https://i.pravatar.cc/150?img=15",
+      "bio": "Artigiano del legno. Scambio falegnameria con informatica o cucina.",
+      "rating": 4.6,
+      "reviewCount": 31,
+      "joinedAt": "2024-05-12"
+    }
+  ],
+
+  "categories": [
+    { "id": 1, "nome": "Informatica", "icona": "monitor" },
+    { "id": 2, "nome": "Arte", "icona": "pencil" },
+    { "id": 3, "nome": "Lingue", "icona": "language" },
+    { "id": 4, "nome": "Musica", "icona": "music" },
+    { "id": 5, "nome": "Sociali", "icona": "person" },
+    { "id": 6, "nome": "Artigianato", "icona": "tool" }
+  ],
+
+  "subcategories": [
+    { "id": 1, "nome": "Python", "categoryId": 1 },
+    { "id": 2, "nome": "HTML", "categoryId": 1 },
+    { "id": 3, "nome": "Mobile", "categoryId": 1 },
+    { "id": 4, "nome": "React", "categoryId": 1 },
+    { "id": 5, "nome": "SQL", "categoryId": 1 },
+
+    { "id": 6, "nome": "Pittura", "categoryId": 2 },
+    { "id": 7, "nome": "Illustrazioni", "categoryId": 2 },
+    { "id": 8, "nome": "Grafica", "categoryId": 2 },
+    { "id": 9, "nome": "Editing", "categoryId": 2 },
+    { "id": 10, "nome": "Arte 3D", "categoryId": 2 },
+
+    { "id": 11, "nome": "Inglese", "categoryId": 3 },
+    { "id": 12, "nome": "Spagnolo", "categoryId": 3 },
+    { "id": 13, "nome": "Francese", "categoryId": 3 },
+    { "id": 14, "nome": "Tedesco", "categoryId": 3 },
+    { "id": 15, "nome": "Cinese", "categoryId": 3 },
+
+    { "id": 16, "nome": "Chitarra", "categoryId": 4 },
+    { "id": 17, "nome": "Piano", "categoryId": 4 },
+    { "id": 18, "nome": "Canto", "categoryId": 4 },
+    { "id": 19, "nome": "Produzione", "categoryId": 4 },
+    { "id": 20, "nome": "DJ", "categoryId": 4 },
+
+    { "id": 21, "nome": "Fotografia", "categoryId": 5 },
+    { "id": 22, "nome": "Danza", "categoryId": 5 },
+    { "id": 23, "nome": "Cucina", "categoryId": 5 },
+    { "id": 24, "nome": "Yoga", "categoryId": 5 },
+    { "id": 25, "nome": "Teatro", "categoryId": 5 },
+
+    { "id": 26, "nome": "Ceramica", "categoryId": 6 },
+    { "id": 27, "nome": "Cucito", "categoryId": 6 },
+    { "id": 28, "nome": "Falegnameria", "categoryId": 6 },
+    { "id": 29, "nome": "Gioielleria", "categoryId": 6 },
+    { "id": 30, "nome": "Tessitura", "categoryId": 6 }
+  ],
+
+  "services": [
+    {
+      "id": 1,
+      "userId": 1,
+      "title": "Ti insegno Python dalle basi fino ai progetti reali",
+      "description": "Corso personalizzato di Python per principianti e intermedi. Partiremo dalle basi della sintassi fino ad arrivare a progetti concreti come web scraping, automazione e analisi dati. Lezioni online via Meet, 1 ora a sessione.",
+      "categoryId": 1,
+      "subcategoryId": 1,
+      "images": [
+        "https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=600",
+        "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=600",
+        "https://images.unsplash.com/photo-1587620962725-abab7fe55159?w=600"
+      ],
+      "cerca": ["Arte", "Musica"],
+      "rating": 5.0,
+      "reviewCount": 100,
+      "createdAt": "2026-01-10"
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "title": "React e TypeScript: costruiamo una web app insieme",
+      "description": "Ti guido nella creazione di un'applicazione React con TypeScript. Affronteremo hooks, state management, routing e chiamate API. Ideale per chi conosce già le basi di JavaScript.",
+      "categoryId": 1,
+      "subcategoryId": 4,
+      "images": [
+        "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=600",
+        "https://images.unsplash.com/photo-1581276879432-15e50529f34b?w=600"
+      ],
+      "cerca": ["Musica", "Lingue"],
+      "rating": 5.0,
+      "reviewCount": 100,
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": 3,
+      "userId": 2,
+      "title": "Illustrazioni digitali su Procreate e Illustrator",
+      "description": "Impara a creare illustrazioni digitali professionali. Partiremo dagli strumenti base di Procreate per arrivare ad Illustrator. Adatto a chi ha già un minimo di basi artistiche.",
+      "categoryId": 2,
+      "subcategoryId": 7,
+      "images": [
+        "https://images.unsplash.com/photo-1572044162444-ad60f128bdea?w=600",
+        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600"
+      ],
+      "cerca": ["Informatica", "Lingue"],
+      "rating": 4.8,
+      "reviewCount": 64,
+      "createdAt": "2026-02-05"
+    },
+    {
+      "id": 4,
+      "userId": 2,
+      "title": "Grafica e identità visiva per il tuo brand",
+      "description": "Ti aiuto a costruire l'identità visiva del tuo progetto: logo, palette colori, typography e materiali grafici. Uso Adobe Illustrator e Figma.",
+      "categoryId": 2,
+      "subcategoryId": 8,
+      "images": [
+        "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=600",
+        "https://images.unsplash.com/photo-1626785774573-4b799315345d?w=600"
+      ],
+      "cerca": ["Informatica", "Musica"],
+      "rating": 4.8,
+      "reviewCount": 64,
+      "createdAt": "2026-02-15"
+    },
+    {
+      "id": 5,
+      "userId": 3,
+      "title": "Lezioni di chitarra acustica ed elettrica",
+      "description": "Insegno chitarra acustica ed elettrica da principiante ad avanzato. Metodo personalizzato basato sui tuoi gusti musicali. Posso insegnare teoria, tecnica e repertorio.",
+      "categoryId": 4,
+      "subcategoryId": 16,
+      "images": [
+        "https://images.unsplash.com/photo-1510915361894-db8b60106cb1?w=600",
+        "https://images.unsplash.com/photo-1525201548942-d8732f6617a0?w=600"
+      ],
+      "cerca": ["Informatica", "Arte"],
+      "rating": 4.9,
+      "reviewCount": 42,
+      "createdAt": "2026-03-01"
+    },
+    {
+      "id": 6,
+      "userId": 3,
+      "title": "Produzione musicale con Ableton Live",
+      "description": "Ti insegno a produrre musica con Ableton Live. Dalla registrazione al mixaggio, passando per beat making e sound design. Livello principiante e intermedio.",
+      "categoryId": 4,
+      "subcategoryId": 19,
+      "images": [
+        "https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?w=600",
+        "https://images.unsplash.com/photo-1571330735066-03aaa9429d89?w=600"
+      ],
+      "cerca": ["Arte", "Lingue"],
+      "rating": 4.9,
+      "reviewCount": 42,
+      "createdAt": "2026-03-10"
+    },
+    {
+      "id": 7,
+      "userId": 4,
+      "title": "Conversazione in inglese — tutti i livelli",
+      "description": "Sessioni di conversazione in inglese per migliorare il parlato, il lessico e la scioltezza. Approccio informale e pratico. Anche per chi deve prepararsi a colloqui di lavoro.",
+      "categoryId": 3,
+      "subcategoryId": 11,
+      "images": [
+        "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=600",
+        "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=600"
+      ],
+      "cerca": ["Sociali", "Arte"],
+      "rating": 4.7,
+      "reviewCount": 88,
+      "createdAt": "2026-04-01"
+    },
+    {
+      "id": 8,
+      "userId": 4,
+      "title": "Spagnolo da zero: basi e conversazione",
+      "description": "Corso di spagnolo per principianti assoluti. Imparerai grammatica base, vocabolario quotidiano e conversazione. Lezioni divertenti con materiali originali.",
+      "categoryId": 3,
+      "subcategoryId": 12,
+      "images": [
+        "https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=600"
+      ],
+      "cerca": ["Sociali", "Informatica"],
+      "rating": 4.7,
+      "reviewCount": 88,
+      "createdAt": "2026-04-10"
+    },
+    {
+      "id": 9,
+      "userId": 5,
+      "title": "Laboratorio di falegnameria — oggetti in legno",
+      "description": "Ti insegno le basi della falegnameria: uso degli attrezzi, lavorazione del legno, costruzione di piccoli oggetti e restauro. Lezioni in presenza nel mio laboratorio a Torino.",
+      "categoryId": 6,
+      "subcategoryId": 28,
+      "images": [
+        "https://images.unsplash.com/photo-1504148455328-c376907d081c?w=600",
+        "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?w=600"
+      ],
+      "cerca": ["Informatica", "Sociali"],
+      "rating": 4.6,
+      "reviewCount": 31,
+      "createdAt": "2026-05-01"
+    },
+    {
+      "id": 10,
+      "userId": 1,
+      "title": "Costruiamo insieme un'app mobile con React Native",
+      "description": "Ti guido passo passo nella creazione di un'app mobile con React Native. Affronteremo navigazione, gestione dello stato, notifiche e deploy sugli store.",
+      "categoryId": 1,
+      "subcategoryId": 3,
+      "images": [
+        "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=600"
+      ],
+      "cerca": ["Arte", "Artigianato"],
+      "rating": 5.0,
+      "reviewCount": 100,
+      "createdAt": "2026-05-05"
+    },
+    {
+      "id": 11,
+      "userId": 2,
+      "title": "Editing video professionale con Premiere Pro",
+      "description": "Corso pratico di editing video con Adobe Premiere Pro. Dal montaggio base agli effetti, color grading e esportazione. Ideale per content creator e videomaker alle prime armi.",
+      "categoryId": 2,
+      "subcategoryId": 9,
+      "images": [
+        "https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?w=600"
+      ],
+      "cerca": ["Musica", "Informatica"],
+      "rating": 4.8,
+      "reviewCount": 64,
+      "createdAt": "2026-05-08"
+    },
+    {
+      "id": 12,
+      "userId": 5,
+      "title": "Ceramica a mano: modellazione e decorazione",
+      "description": "Lezioni di ceramica artigianale: modellazione a mano libera, decorazione e cottura. Materiali inclusi. In presenza a Torino, gruppi piccoli o lezioni individuali.",
+      "categoryId": 6,
+      "subcategoryId": 26,
+      "images": [
+        "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?w=600"
+      ],
+      "cerca": ["Lingue", "Informatica"],
+      "rating": 4.6,
+      "reviewCount": 31,
+      "createdAt": "2026-05-10"
+    }
+  ],
+
+  "reviews": [
+    {
+      "id": 1,
+      "serviceId": 1,
+      "userId": 2,
+      "rating": 5,
+      "comment": "Mario è un insegnante paziente e molto chiaro. Ho imparato Python in poche settimane!",
+      "createdAt": "2026-02-10"
+    },
+    {
+      "id": 2,
+      "serviceId": 1,
+      "userId": 4,
+      "rating": 5,
+      "comment": "Ottimo scambio. Mi ha insegnato Python mentre io gli insegnavo inglese. Super!",
+      "createdAt": "2026-03-01"
+    },
+    {
+      "id": 3,
+      "serviceId": 3,
+      "userId": 1,
+      "rating": 5,
+      "comment": "Giulia è bravissima. Le illustrazioni che mi ha insegnato a fare sono bellissime.",
+      "createdAt": "2026-03-15"
+    },
+    {
+      "id": 4,
+      "serviceId": 5,
+      "userId": 2,
+      "rating": 5,
+      "comment": "Luca ha una pazienza infinita. Ho finalmente imparato gli accordi di base!",
+      "createdAt": "2026-04-01"
+    },
+    {
+      "id": 5,
+      "serviceId": 7,
+      "userId": 3,
+      "rating": 4,
+      "comment": "Sara è molto professionale. Le sessioni di inglese mi hanno aiutato tantissimo.",
+      "createdAt": "2026-04-20"
+    },
+    {
+      "id": 6,
+      "serviceId": 9,
+      "userId": 1,
+      "rating": 5,
+      "comment": "Marco mi ha aperto un mondo! Ho costruito la mia prima mensola in legno.",
+      "createdAt": "2026-05-12"
+    }
+  ]
+}
