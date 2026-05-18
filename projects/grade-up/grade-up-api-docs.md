@@ -1,6 +1,6 @@
 # GradeUp — API Documentation
 
-**Base URL:** `https://mock-api-server-production-7f5d.up.railway.app/grade-up`
+**Base URL:** `https://mock-api-server-production-7f5d.up.railway.app/grade-up/api`
 
 ---
 

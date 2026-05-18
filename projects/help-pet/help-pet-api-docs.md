@@ -1,6 +1,6 @@
 # Help-Pet — API Documentation
 
-**Base URL:** `https://mock-api-server-production-7f5d.up.railway.app/help-pet`
+**Base URL:** `https://mock-api-server-production-7f5d.up.railway.app/help-pet/api`
 
 ---
 

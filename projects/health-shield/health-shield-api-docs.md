@@ -1,6 +1,6 @@
 # Health-Shield — API Documentation
 
-**Base URL:** `https://mock-api-server-production-7f5d.up.railway.app/health-shield`
+**Base URL:** `https://mock-api-server-production-7f5d.up.railway.app/health-shield/api`
 
 ---
 

@@ -1,6 +1,6 @@
 # GameBuster — API Documentation
 
-**Base URL:** `https://mock-api-server-production-7f5d.up.railway.app/gamebuster`
+**Base URL:** `https://mock-api-server-production-7f5d.up.railway.app/gamebuster/api`
 
 ---
 
