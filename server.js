@@ -1,7 +1,15 @@
 const jsonServer = require('json-server')
 const server = jsonServer.create()
 
-const projects = ['help-pet', 'health-shield', 'skillswap', 'match-to-match', 'gamebuster']
+const projects = [
+  'help-pet',
+  'health-shield',
+  'skillswap',
+  'match-to-match',
+  'gamebuster',
+  'grade-up',
+  'ecocycle',
+]
 
 projects.forEach((project) => {
   const router = jsonServer.router(`projects/${project}/db.json`)
