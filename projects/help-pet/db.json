@@ -219,6 +219,7 @@
       "foto": "https://images.dog.ceo/breeds/spaniel-japanese/n02085782_2690.jpg",
       "descrizione": "chihuahua a macchie, nessun collare, taglia piccola",
       "ultimaPosizione": "Parco Nord, Vinovo",
+      "ultimaPosizioneLatLong": [44.9481, 7.6384],
       "contatto": "+39 332 455 7875",
       "dataSegnalazione": "2026-04-22"
     },
@@ -230,6 +231,7 @@
       "foto": "https://cdn2.thecatapi.com/images/3lo.jpg",
       "descrizione": "gatto piccola taglia, tigrato, pelo disfatto",
       "ultimaPosizione": "Corso Italia, Nichelino",
+      "ultimaPosizioneLatLong": [44.9934, 7.6451],
       "contatto": "+39 333 114 9024",
       "dataSegnalazione": "2026-04-25"
     },
@@ -241,6 +243,7 @@
       "foto": "https://cdn2.thecatapi.com/images/f4.jpg",
       "descrizione": "gatto arancione chiaro, con striature bianche",
       "ultimaPosizione": "Via Garibaldi, Torino",
+      "ultimaPosizioneLatLong": [45.0738, 7.6852],
       "contatto": "+39 345 333 6279",
       "dataSegnalazione": "2026-04-27"
     },
@@ -252,6 +255,7 @@
       "foto": "https://images.dog.ceo/breeds/beagle/n02088364_2652.jpg",
       "descrizione": "beagle piccolo, molto spaventato",
       "ultimaPosizione": "Via Molinette, Moncalieri",
+      "ultimaPosizioneLatLong": [44.9981, 7.6891],
       "contatto": "+39 366 134 6558",
       "dataSegnalazione": "2026-04-30"
     },
@@ -263,6 +267,7 @@
       "foto": "https://cdn2.thecatapi.com/images/tJbzb7FKo.jpg",
       "descrizione": "gatto affabile color marrone, pelo striato",
       "ultimaPosizione": "Via Muschietto, Carignano",
+      "ultimaPosizioneLatLong": [44.9087, 7.6831],
       "contatto": "+39 347 882 1808",
       "dataSegnalazione": "2026-05-03"
     },
@@ -274,6 +279,7 @@
       "foto": "https://images.dog.ceo/breeds/labrador/n02099712_7133.jpg",
       "descrizione": "labrador cucciolo, colore molto chiaro",
       "ultimaPosizione": "Parco i Salti, Torino",
+      "ultimaPosizioneLatLong": [44.9876, 7.6443],
       "contatto": "+39 331 899 5617",
       "dataSegnalazione": "2026-05-04"
     },
@@ -285,6 +291,7 @@
       "foto": "https://images.dog.ceo/breeds/akita/An_Akita_Inu_resting.jpg",
       "descrizione": "akita taglia grande, colore marrone",
       "ultimaPosizione": "Via Ginevro, Carignano",
+      "ultimaPosizioneLatLong": [44.9092, 7.6803],
       "contatto": "+39 356 878 3313",
       "dataSegnalazione": "2026-05-07"
     },
@@ -296,6 +303,7 @@
       "foto": "https://cdn2.thecatapi.com/images/bum.jpg",
       "descrizione": "gatto marrone chiaro, occhi verdi",
       "ultimaPosizione": "Piazza San Salvario, La loggia",
+      "ultimaPosizioneLatLong": [44.9603, 7.7011],
       "contatto": "+39 320 556 7193",
       "dataSegnalazione": "2026-05-09"
     }
